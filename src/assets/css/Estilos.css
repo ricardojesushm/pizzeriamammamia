@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar_home{
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    justify-content: space-between;
+    padding-block: 15px;
+    padding-inline: 100px;
+}
+
+.navbar_column_1{
+    display: flex;
+    gap: 40px;
+}
+
+.menu_principal{
+    display: flex;
+    gap: 30px;
+}
+
+.item_menu_principal{
+    display: flex;
+    gap: 5px;
+}
+
+.carrito_navbar{
+    display: flex;
+    gap: 5px;
+}
+
+.ico_menu_principal i{
+    color: rgb(208, 132, 0);
+}
+
+.ocultar{
+    display: none;
+}
+
+.encabezado{
+    background-image:linear-gradient(#00000070, #0000008f), url(../img/pizzeria_mamma_mia.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.titulo_de_sitio{
+    font-size: 32px;
+}
+
+.subtitulo{
+    font-size: 18px;
+}
+
+.contenedor_card_pizza{
+    border-radius: 15px;
+    padding: 15px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 0.806);
+    color: white;
+}
+
+.imagen_card_pizza{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_card_pizza img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.titulo_card_pizza{
+    font-size: 23px;
+    padding-block: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_descripcion{
+    font-size: 18px;
+    display: flex;
+    justify-content:left;
+    padding-bottom: 15px;
+    color: rgb(208, 132, 0)
+}
+
+.ingrediente_pizza{
+    display: flex;
+    gap: 5px;
+}
+
+.ingredientes_pizza{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ingredientes_pizza img{
+    width: 18px;
+    display: flex;
+}
+
+.separador_card{
+    margin-top: 15px;
+    background-color: white;
+    height: 1px;
+}
+
+.precio_pizza{
+    font-size: 23px;
+    padding-block: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.botones_card_pizza{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.boton_ver_mas{
+    padding-block: 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding-inline: 10px;
+    border-color: white;
+}
+
+.boton_ver_mas:hover{
+    cursor: pointer;
+}
+
+.boton_carrito:hover{
+    cursor: pointer;
+}
+
+.boton_carrito{
+    padding-block: 5px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(208, 132, 0);
+    border-style: solid;
+    border-radius: 5px;
+    padding-inline: 10px;
+    border-color: rgb(208, 132, 0);
+}
+
+.contenedor_productos{
+    background-image:linear-gradient(#00000070, #0000008f), url(../img/fondo_pizzeria_mama_mia.webp);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-block: 30px;
+}
+
+.pie_de_pagina{
+    display: flex;
+    justify-content: center;
+    padding-block: 15px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
