@@ -62,19 +62,19 @@ export default function Carrito() {
     //     setPizzas(nuevoCart);
     //     };
         
-    // function restarItems(idPizza){
-    //     let nuevoCart = pizzas.map(pizza=>{
-    //         if (pizza.id==idPizza){
-    //             return {
-    //                 ...pizza, count:pizza.count+1
-    //             } 
-    //         } else {
-    //             return pizza;
-    //         }
-    //     }
-    //     )
-    //     setPizzas(nuevoCart);
-    // }
+    function restarItems(idPizza){
+     let nuevoCart = pizzas.map(pizza=>{
+            if (pizza.id==idPizza){
+                return {
+                    ...pizza, count:pizza.count-1
+                } 
+            } else {
+                return pizza;
+         }
+        }
+        )
+     setPizzas(nuevoCart);
+     };
 
     return(
         <section className='carrito_contenedor'>
